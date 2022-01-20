@@ -1,0 +1,11 @@
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h1>Calcular Desviacion Estandar ⏳</h1>
+            <button class="btn btn-dark btn-lg float-right" routerLink="/list-empleado">Regresar Lista Empleados</button>
+            <button (click)="getEmpleadosPromedio()" class="btn btn-dark btn-lg float  mr-5">Obtener </button>
+            <h5 style="margin-top: 30px;" *ngIf="operacion">La desviación estándar es : {{operacion}} </h5>
+            
+        </div>
+    </div>
+</div>

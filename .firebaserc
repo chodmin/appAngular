@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "empleados-bccc9": {
+      "hosting": {
+        "empleados": [
+          "empleados-bccc9"
+        ]
+      }
+    },
+    "empleados-7b553": {
+      "hosting": {
+        "empleados": [
+          "empleados-7b553"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fireapp-e2e3d"
+  }
+}
